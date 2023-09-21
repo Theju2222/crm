@@ -1,1 +1,5 @@
-<?php$host = "localhost";$username = "u607874594_crm";$password = "IZB@crm#2023";$database = "u607874594_crm";
+<?php
+$host = "localhost";
+$username = "crm_izb";
+$password = "Techrowth@123";
+$database = "crm_izb";
