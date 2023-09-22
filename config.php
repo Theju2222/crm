@@ -1,5 +1,5 @@
 <?php
-$host = "crm-izb.mysql.database.azure.com";
+$host = "localhost";
 $username = "crm_izb";
 $password = "Techrowth@123";
 $database = "crm_izb";
