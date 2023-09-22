@@ -11,14 +11,7 @@
     
 </head>
 <body>
-<?php 
-include 'init.php';
-if($users->isLoggedIn()) {
-	header('Location: ticket.php');
-}
-$errorMessage = $users->login();
-include('inc/header.php');
-?>
+
     <div class="wrapper">
         <div class="container main">
             <div class="row">
@@ -29,9 +22,7 @@ include('inc/header.php');
                 </div>
                 <div class="col-md-6 right">
                      <div class="input-box">
-                     <?php if ($errorMessage != '') { ?>
-					<div id="login-alert" class="alert alert-danger col-sm-12"><?php echo $errorMessage; ?></div>                            
-				<?php } ?>
+                   
       
         
 				<form id="loginform" class="form-horizontal" role="form" method="POST" action="">      
