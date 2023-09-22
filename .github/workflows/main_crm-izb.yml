@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'crm-izb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3BA169EF6568404A838943B7619E47EC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_131FC0D001494F44935B4EBD7FD653AF }}
           package: .
