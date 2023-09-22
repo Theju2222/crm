@@ -20,7 +20,7 @@
         <li id="department2"><a style="font-size:18px; color: #ffffff;" href="department2.php">Profile</a></li>
         <li id="ticket"><a style="font-size:18px; color: #ffffff;" href="ticket.php">Ticket</a></li>
         <li id="department1"><a style="font-size:18px; color: #ffffff;" href="department1.php">Leads</a></li>
-        <li id="ticket_download"><a style="font-size:18px; color: #ffffff;" href="ticket_download.php"><img src="https://techrowth.s3.eu-north-1.amazonaws.com/images/download.png" alt="" style="width: 1.2vw;"></a></li>
+
 
 		
    
@@ -34,7 +34,7 @@
         <li id="type"><a style="font-size:18px; color: #ffffff;" href="type.php">Type</a></li>
         <li id="subtype"><a style="font-size:18px; color: #ffffff;" href="subtype.php">Sub-Type</a></li>
         <li id="user"><a style="font-size:18px; color: #ffffff;" href="user.php">Users</a></li>
-        <li id="ticket_download"><a style="font-size:18px; color: #ffffff;" href="ticket_download.php"><img src="https://techrowth.s3.eu-north-1.amazonaws.com/images/download.png" alt="" style="width: 1.2vw;"></a></li>
+
 
     <?php } elseif (isset($_SESSION["user"])) { ?>
         <li id="department2"><a style="font-size:18px; color: #ffffff;" href="department2.php">Profile</a></li>
