@@ -1,5 +1,5 @@
 <?php
-$host = "crm_izb";
+$host = "crm_izb_";
 $username = "crm_izb";
-$password = "Techrowth@123";
-$database = "crm_izb";
+$password = "Techrowth123";
+$database = "crm_izb__";
